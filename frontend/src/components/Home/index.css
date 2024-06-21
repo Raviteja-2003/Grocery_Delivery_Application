@@ -1,0 +1,36 @@
+body {
+    overflow-y: auto; /* This prevents vertical scrolling */
+    margin: 0px;
+  }
+
+.entier{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: radial-gradient(black, rgb(105, 5, 5));
+    height: auto;
+    
+    background-size: cover;
+}
+
+.heading {
+    color: rgb(190, 175, 175);
+    font-family: "serif";
+    font-style: italic;
+    font-size: 20px;
+    margin-top:30px;
+    margin-right: 20px;
+    margin-left: 5px;
+    
+}
+/* ParentComponent.css */
+
+    /* ParentComponent.css */
+.parent-container {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+
